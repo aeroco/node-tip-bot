@@ -5,12 +5,12 @@ connection:
   status_command: ACC
   debug: false
 login: 
-  nickname: CannacoinTipbot
-  username: CannacoinTipbot
-  realname: node.js Cannacoin tipping bot
+  nickname: Aerotippy
+  username: Aerotippy
+  realname: node.js Aero tipping bot
   nickserv_password: password
 channels: 
-  - '#cannacoin'
+  - '#aerocoin'
 log:
   file: cannatip.log
 rpc:
@@ -23,8 +23,8 @@ coin:
   min_withdraw: 1
   min_confirmations: 3
   min_tip: 1
-  short_name: CCN
-  full_name: Cannacoin
+  short_name: AERO
+  full_name: Aerocoin
 webadmin:
   enabled: true
   port: 8080
